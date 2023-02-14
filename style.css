@@ -1,8 +1,6 @@
 body {
   background-color: #F6F6F7;
   color: #222425;
-  /* box-sizing: border-box; */
-  /* box-sizing: content-box; */
 }
 
 
@@ -15,14 +13,6 @@ body::before {
   top: 0;
   right: 0;
 }
-
-/* This box class is purely used for explaining how the bootstrap grid system works. */
-/* .box { */
-/*   background-color: lightblue; */
-/*   border: 1px solid blue; */
-/*   min-height: 50px; */
-/*   font-size: 2rem; */
-/* } */
 
 @media (min-width: 576px) {
   body::before {
